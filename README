@@ -1,0 +1,37 @@
+AB breakdown - 
+I will submit a folder, named first_assignment, where src.zip is located. 
+If you unzip it, you will see code_partA.ipynb and code_partB.ipynb, which literally
+means partA is for code_partA.ipynb and partB is for code_partB.ipynb.
+
+Description - 
+Part A:
+I mostly used "re" library to remove some "useless" thing such as punchuation and empty string, etc, after converting to lowercase.
+After refining the code, I made them list with split for tokenization.
+Then, I imported stopswords.txt for stopword removal.
+After that, the list derived from string text got filtered by stopword using list comprehension.
+With the stopword applied list(the variable name is new_sentence), I created function by function.
+
+Part B:
+I did in the same way with part A. 
+used re.sub() to remove also "useless", then split it to for tokenization and removed empty string, comma
+But here, due to lot's of useless things, I made a list with the useless elements.
+Then I used replace method one word by one word to remove someting in the list.
+Then, same goes here. Imported stopwords.txt with open() method and applied stopword with list comprehension.
+
+Libraries -
+Part A:
+I used re. That's all library I did to use sub, remove, split
+
+Part B:
+I used re and Counter. I used re to use sub, remove, split.
+I used Counter to count the top 300 frequent words.
+
+Building:I don't have to build code since it's all python.
+
+Running: I did on Jupyter Notebook and open the file on VS code later. 
+You can just click "Run All", you are all set!
+
+
+
+
+
